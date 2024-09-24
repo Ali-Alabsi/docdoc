@@ -1,9 +1,10 @@
-import 'package:doctor/core/theming/colors.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'core/routing/app_router.dart';
 import 'core/routing/routes.dart';
+import 'core/theming/colors.dart';
 
 class DocApp extends StatelessWidget {
   final AppRouter appRouter;
@@ -17,6 +18,7 @@ class DocApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: "DocApp",
+
         theme: ThemeData(primaryColor: ProjectColors.mainColors),
         initialRoute: Routes.onBordingScreen,
         onGenerateRoute: appRouter.generateRoute,

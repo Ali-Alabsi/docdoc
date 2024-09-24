@@ -1,6 +1,8 @@
-import 'package:doctor/core/theming/colors.dart';
-import 'package:doctor/core/theming/text_style.dart';
+
 import 'package:flutter/material.dart';
+
+import '../theming/colors.dart';
+import '../theming/text_style.dart';
 
 class AppTextFormFiled extends StatelessWidget {
   const AppTextFormFiled(

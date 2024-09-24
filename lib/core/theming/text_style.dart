@@ -1,6 +1,8 @@
-import 'package:doctor/core/theming/colors.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'colors.dart';
 
 class TextStyles {
   static TextStyle font22BlackColorBold =  TextStyle(
